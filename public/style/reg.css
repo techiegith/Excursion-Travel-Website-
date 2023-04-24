@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Combo&family=Nunito+Sans&display=swap');
+body{
+    background-image: url("../image/91.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#alert
+{
+    padding:0;
+    width:auto;
+    height:auto;
+    padding:10px 80px;
+    /* border-radius: 35px;   */
+    background-color:rgb(225, 69, 69);
+    color:whitesmoke;
+    border:3px solid red; 
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size:medium;
+    position:absolute;
+    top:5%; 
+    left:12%; 
+    transform: translate(-50%,-50%);
+    display: none;
+    /* animation: alertAnimate 15s linear infinite; */
+}
+/* @keyframes alertAnimate{
+    from{
+        right: 100vw;
+    }
+    to{
+        right: -40vw;
+    }
+} */
+h2{
+    color: aliceblue;
+    font-weight:bolder;
+}
+.box{
+    margin-left: 35%;
+    margin-top: 5%;
+    background-color: #000000eb;
+    background-attachment: fixed;
+    border-radius:44px;
+    width:340px;
+    height:495px;
+    align-content: center;
+    box-shadow: 10px 10px 5px lightblue;
+
+}
+.inside_box{
+    margin-left: 80px;
+    padding-bottom: 20px;
+    color: white;
+    font-family:'Combo';
+}
+.inside_button{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 35px;
+    width: 120px;
+    color: white;
+    font-family: cursive;
+    border-radius: 20px;
+    background-color: rgb(249, 61, 61);
+    cursor:pointer;
+}
+.inside_button:hover{
+    background-color:rgb(142, 20, 4);
+    border-color: aqua;
+        }
+/*.top{
+    border-radius: 10px;
+    width: 210px;
+    height: 25px;
+    padding-left:5px ;
+   }*/
